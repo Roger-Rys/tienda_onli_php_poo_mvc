@@ -19,7 +19,7 @@
             <?php while ($producto = $productos->fetch_object()): ?>
                 <tr>
                     
-                        <?php $imagen = isset($producto->imagen) ? base_url . "upload/images/" . $producto->imagen : base_url . "assets/img/camiseta.png"; ?>
+                    <?php $imagen = isset($producto->imagen) ? base_url . "upload/images/" . $producto->imagen : base_url . "assets/img/camiseta.png"; ?>
                     <td><img src="<?= $imagen ?>" class="img_carrito"></td>
                     <td><a href="<?= base_url ?>producto/ver&id=<?= $producto->id ?>"><?= $producto->nombre; ?></a></td>
 

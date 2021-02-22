@@ -1,0 +1,101 @@
+:root{
+    --font-bodoni: 'Bodoni Moda', serif;
+    --font-poppins: 'Poppins', sans-serif;
+    --font-montserrat: 'Montserrat', sans-serif;
+
+    --white: #f9faf4;
+    --orange: #b45008;
+    --lightorange:#e8bf65;
+    --gray: #1e1e1e;
+
+    --width: auto;
+    --height: auto;
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+button, [type="submit"]{
+    margin: 10px;
+}
+.padding-little{
+    padding-top: 150px;
+}
+
+#header{
+    position: fixed;
+    background: var(--white);
+    z-index: 2;
+}
+#title h3{
+    padding: 10px;
+    font-family: var(--font-bodoni);
+    font-size: 40px;
+    color: var(--orange);
+}
+
+#menu{
+    width: var(--width);
+    padding: 10px;
+    font-family: var(--font-poppins);
+    font-size: 30px;
+    color: var(--gray);
+}
+#menu a{
+    font-family: var(--font-poppins);
+    font-size: 30px;
+    color: var(--gray);
+}
+
+#imagefond img{
+    width: var(--width);
+    height: var(--height);
+}
+
+#aside{
+    background: var(--gray);
+}
+#aside h3{
+    font-family: var(--font-montserrat);
+    color: var(--orange);
+}
+#aside p, label{
+    font-family: var(--font-poppins);
+    color: var(--white);
+}
+#aside a{
+    font-family: var(--font-poppins);
+    color: var(--white);
+}
+
+#content-center{
+    font-family: var(--font-poppins);
+}
+#content-center h3{
+    color: var(--orange);
+}
+
+#products{
+    min-height: var(--height);
+}
+#products img{
+    width: auto;
+    height: 250px;
+}
+
+#aboutus{
+    height: var(--height);
+    background: var(--orange);
+}
+#aboutus h3{
+    color: var(--lightorange);
+}
+#aboutus p{
+    color: var(--white);
+}
+
+#footer h3{
+    padding-top: 10px;
+}

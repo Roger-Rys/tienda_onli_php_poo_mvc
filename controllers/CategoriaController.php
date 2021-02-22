@@ -37,7 +37,8 @@ class CategoriaController{
             //Consegir productos
             $producto = new Producto();
             $producto->setCategoria_id($id);
-            $productos = $producto->getAllCategory();           
+            $productos = $producto->getAllCategory();
+            $cont=0;
         }
         
         require_once 'views/categoria/ver.php';
