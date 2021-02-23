@@ -1,8 +1,8 @@
             </div>
 
             <!--About us-->
-            
             <div id="aboutus" class="row">
+                <div id="aboutustop"></div>
                 <div class="col-md-12">
                     <h3 class="text-center padding-little">
                         Acerca de nosotros
@@ -14,12 +14,12 @@
                     </p>
                 </div>
             </div>
-            <div id="aboutustop"></div>
+            
             <!--footer-->
             <div id="footer" class="row">
                 <div class="col-md-10">
                     <h3 class="text-center">
-                        Todos los derechos reservados &copy <?= date("Y")?>
+                        Todos los derechos reservados &copy;
                     </h3>
                 </div>
                 <div class="col-md-2">			 
@@ -29,7 +29,6 @@
                 </div>
             </div>
         </div>
-
         
     </body>
 </html>

@@ -24,12 +24,12 @@
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
-        
+            
         <script src="js/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/scripts.js"></script>
-
     </head>
+
     <body>
         <div class="container-fluid">
             <!--Header-->
@@ -55,7 +55,9 @@
                         <!--MENU-->
                         <?php $categorias = Utils::showCategorias();?>
                         <li class="nav-item dropdown ml-md-auto">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">Categoria</a>
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown">
+                                Categoria
+                            </a>
                             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
                                 <?php while ($cat = $categorias->fetch_object()): ?>
                                     <a class="dropdown-item" href="<?= base_url ?>Categoria/ver&id=<?= $cat->id ?>"><?= $cat->nombre ?></a>

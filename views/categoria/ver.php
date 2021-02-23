@@ -1,3 +1,10 @@
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/scripts.js"></script>
+
 <?php if (isset($cat)): ?>
     <div id="products" class="col-md-9">
         <h3 class="text-center padding-little">

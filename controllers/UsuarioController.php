@@ -1,8 +1,16 @@
-<?php
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+<link href="../css/style.css" rel="stylesheet">
 
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/scripts.js"></script>
+
+
+<?php
 require_once 'models/usuario.php';
 
 class UsuarioController {
+    
 
     public function index() {
         echo "Controlador Usuario accion index";
@@ -40,7 +48,7 @@ class UsuarioController {
         } else {
             $_SESSION["register"] = "failed";
         }
-        header("Location:" . base_url . "Usuario/registro");
+        header("Location:". base_url ."Usuario/registro");
     }
 
      public function login(){

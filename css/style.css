@@ -99,3 +99,17 @@ button, [type="submit"]{
 #footer h3{
     padding-top: 10px;
 }
+
+
+/*REGISTRARSE*/
+#registro{
+    margin: 10px;
+}
+#registro label{
+    color: var(--gray);
+    font-size: 20px; 
+}
+#registro input{
+    font-size: 20px; 
+    width:calc(var(--width) - 400px);
+}
